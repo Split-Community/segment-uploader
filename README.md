@@ -1,6 +1,6 @@
 # Split.io Segment Upload Utility
 
-A command-line utility for uploading segment data to Split.io in manageable chunks. Split's (Segment Upload API)[https://docs.split.io/reference/update-segment-keys-in-environment-via-csv] requires segments be broken upinto chunks of 10,000 and so this will take a file to be uploaded as an argument, break it up, and then proceed to upload it in chunks of 10,000 id values. 
+A command-line utility for uploading segment data to Split.io in manageable chunks. Split's [Segment Upload API](https://docs.split.io/reference/update-segment-keys-in-environment-via-csv) requires segments be broken upinto chunks of 10,000 and so this will take a file to be uploaded as an argument, break it up, and then proceed to upload it in chunks of 10,000 id values. 
 
 Note that the segment must already exist in the environment. 
 
